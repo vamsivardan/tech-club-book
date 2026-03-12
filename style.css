@@ -1,0 +1,178 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f7f8;
+color:#1b2b34;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero h1{
+font-size:48px;
+margin:20px 0;
+}
+
+.hero span{
+color:#0d7a7a;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 20px;
+border:none;
+background:#0d7a7a;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.hero-image img{
+width:420px;
+border-radius:12px;
+}
+
+/* FEATURES */
+
+.features{
+display:flex;
+align-items:center;
+padding:80px;
+gap:50px;
+}
+
+.features img{
+width:350px;
+border-radius:12px;
+}
+
+.features ul{
+margin-top:20px;
+line-height:2;
+}
+
+/* COMMUNITY */
+
+.community{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+}
+
+.community img{
+width:350px;
+border-radius:12px;
+}
+
+/* STEPS */
+
+.steps{
+padding:80px;
+text-align:center;
+}
+
+.step-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.step{
+background:white;
+padding:20px;
+border-radius:10px;
+width:180px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* PRICING */
+
+.pricing{
+padding:80px;
+text-align:center;
+}
+
+.pricing-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+width:250px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.card button{
+margin-top:20px;
+padding:10px;
+width:100%;
+background:#0d7a7a;
+border:none;
+color:white;
+border-radius:6px;
+}
+
+/* TESTIMONIAL */
+
+.testimonial{
+text-align:center;
+padding:80px;
+}
+
+.quote{
+font-size:20px;
+max-width:600px;
+margin:auto;
+}
+
+.author{
+margin-top:20px;
+color:gray;
+}
+
+/* CTA */
+
+.cta{
+background:#0d2e2e;
+color:white;
+text-align:center;
+padding:80px;
+}
+
+.cta button{
+margin-top:20px;
+padding:12px 20px;
+background:white;
+border:none;
+border-radius:6px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#eee;
+}
